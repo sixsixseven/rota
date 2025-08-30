@@ -16,6 +16,6 @@
 
 ## License
 - Documentation: [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)
-- Code in `/software`: [MIT License](./software/LICENSE)
+- ~~Code in `/software`: [MIT License](./software/LICENSE)~~
 
 ---
