@@ -1,0 +1,27 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "ROTA Log Entry",
+  "type": "object",
+  "properties": {
+    "message_id": { "type": "string" },
+    "origin": { "type": "string" },
+    "relay": { "type": "string" },
+    "destination": { "type": "string" },
+    "timestamp": { "type": "string", "format": "date-time" },
+    "frequency": { "type": "string" },
+    "mode": { "type": "string" },
+    "checksum": { "type": "string" },
+    "hop_number": { "type": "integer", "minimum": 1 }
+  },
+  "required": [
+    "message_id",
+    "origin",
+    "relay",
+    "destination",
+    "timestamp",
+    "frequency",
+    "mode",
+    "checksum",
+    "hop_number"
+  ]
+}
